@@ -1,0 +1,21 @@
+#timothy S Brower
+#roshambo exercise 1.7
+
+plr1 = raw_input("Player one please choose rock, paper or, scissors:")
+plr1 = plr1.lower()
+
+
+if plr1 == "rock" or plr1 == "paper" or plr1 == "scissors":
+    return plr1
+else:
+    pritn 'Player one there are only three acceptibal inputs', plr1, /
+    "is not one of them. Please try again!"
+
+plr2 = raw_input("Player two please choose rock, paper or, scissors:")
+plr2 = plr2.lower()
+
+if plr2 == "rock" or plr2 == "paper" or plr2 == "scissors":
+    return plr2
+else:
+    pritn 'Player one there are only three acceptibal inputs', plr2, /
+    "is not one of them. Please try again!"
